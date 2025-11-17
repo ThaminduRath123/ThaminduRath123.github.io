@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Exam - IMAT Prep</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">IMAT Prep</div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="practice.html">Practice</a></li>
+                <li><a href="quick-quiz.html">Quick Quiz</a></li>
+                <li><a href="mock-exam.html">Mock Exam</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Full Mock Exam</h1>
+            <p>60 questions • 100 minutes • Real IMAT Experience</p>
+        </section>
+
+        <div class="quiz-interface">
+            <div id="quiz-container">
+                <div class="start-screen">
+                    <h2>Full IMAT Simulation</h2>
+                    <p>Experience the real exam conditions with 60 questions in 100 minutes</p>
+                    <div class="exam-info">
+                        <h3>Exam Structure:</h3>
+                        <ul>
+                            <li>General Knowledge & Logical Reasoning: 22 questions</li>
+                            <li>Biology: 18 questions</li>
+                            <li>Chemistry: 12 questions</li>
+                            <li>Physics & Mathematics: 8 questions</li>
+                        </ul>
+                    </div>
+                    <button class="btn-primary" onclick="quizEngine.startMockExam()">Start Mock Exam</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IMAT Prep. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/quiz-engine.js"></script>
+</body>
+</html>
