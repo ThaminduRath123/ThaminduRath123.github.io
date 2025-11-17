@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz - IMAT Prep</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">IMAT Prep</div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="practice.html">Practice</a></li>
+                <li><a href="quick-quiz.html">Quick Quiz</a></li>
+                <li><a href="mock-exam.html">Mock Exam</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Quick Quiz</h1>
+            <p>20 questions • 20 minutes • Test your speed</p>
+        </section>
+
+        <div class="quiz-interface">
+            <div id="quiz-container">
+                <div class="start-screen">
+                    <h2>Ready for a Quick Challenge?</h2>
+                    <p>Complete 20 random questions in 20 minutes</p>
+                    <button class="btn-primary" onclick="quizEngine.startQuickQuiz()">Start Quiz</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IMAT Prep. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/quiz-engine.js"></script>
+</body>
+</html>
